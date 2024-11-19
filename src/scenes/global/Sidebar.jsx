@@ -46,6 +46,15 @@ const Sidebar = () => {
       sx={{
         "& .pro-sidebar-inner": {
           background: `${colors.primary[400]} !important`,
+          height: "100vh !important",
+          position: "fixed !important",
+          top: 0,
+          left: 0,
+          width: "270px !important", // Set a fixed width for the sidebar
+        },
+        "& .pro-sidebar": {
+          height: "100vh !important",
+          width: "270px !important", // Match the width to maintain consistency
         },
         "& .pro-icon-wrapper": {
           backgroundColor: "transparent !important",
