@@ -50,11 +50,11 @@ const Sidebar = () => {
           position: "fixed !important",
           top: 0,
           left: 0,
-          width: isCollapsed ? "60px !important" : "270px !important",
+          width: isCollapsed ? "70px !important" : "270px !important",
         },
         "& .pro-sidebar": {
           height: "100vh !important",
-          width: isCollapsed ? "60px !important" : "270px !important",
+          width: isCollapsed ? "70px !important" : "270px !important",
         },
         "& .pro-icon-wrapper": {
           backgroundColor: "transparent !important",
